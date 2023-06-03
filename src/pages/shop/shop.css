@@ -1,5 +1,5 @@
 .shopTitle{
-    margin-top: 100px;
+    margin-top: 20px;
     text-align: center;
     font-size: 40px;
 }
@@ -25,6 +25,7 @@
 
 .product img {
     width: 300px;
+    height: 300px;
 }
 
 .product description{
@@ -34,6 +35,17 @@
 .product:hover{
     transition: 0.3s ease-in;
     cursor: pointer;
+}
+.addToCartButn{
+    background-color: rgb(255, 255, 255);
+    border-radius:10px;
+    color: #000000;
+    cursor: pointer;
+}
+.addToCartButn:hover{
+    background-color: rgb(0, 0, 0);
+    border-radius:10px;
+    color: #ffffff;
 }
 
 @media screen and (max-width:600px) {
@@ -50,6 +62,7 @@
     }
     .product img {
         width: 300px;
+        height: 300px;
         margin:50px;
     }
 }
@@ -68,6 +81,7 @@
     }
     .product img {
         width: 300px;
+        height: 300px;
         margin: 50px;
     }
 }
@@ -81,6 +95,7 @@
     }
     .product img {
         width: 200px;
+        height: 200px;
         margin: 50px;
     }
 }
